@@ -1,9 +1,22 @@
+# ── 文本文件统一以 LF 存储 ──
+* text=auto eol=lf
+
+# ── 明确按 LF 存储的脚本与配置 ──
 *.sh text eol=lf
 *.yml text eol=lf
 *.swift text eol=lf
 *.c text eol=lf
 *.h text eol=lf
-ios/ios/Tests/Fixtures/*.ts binary
+
+# ── 二进制文件，禁止行尾转换与差异比较 ──
+*.png binary
+*.ico binary
+*.exe binary
 *.aac binary
 *.mp4 binary
+*.m4s binary
+*.mkv binary
 *.bin binary
+
+# MPEG-TS 媒体分片按 .ts 扩展名存放，须在通配规则前排除
+ios/ios/Tests/Fixtures/*.ts binary
