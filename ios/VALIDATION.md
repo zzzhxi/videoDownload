@@ -63,4 +63,4 @@
 
 历史初始原型 [run 34319138718](https://github.com/gaopan513/videoDownload/actions/runs/34319138718)，提交 4eb22587da78342119374d6ac218b3dfcaca8c98，7 项核心和 4 项模拟器原生测试、arm64 归档及 Bundle 校验通过。历史 IPA SHA-256：30f56bef61004086b3d244a8a088166c19700c674b93a6cbde38937cca0d8673。
 
-原文中的 0.2.1(5) 本地候选及调度回归待云端状态已被后续成功构建覆盖。历史版本的修复范围见 [FIX-VALIDATION.md](FIX-VALIDATION.md)、[FIX-0.1.2-VALIDATION.md](FIX-0.1.2-VALIDATION.md) 和仓库根开发记录；不再作为当前安装状态。
+原文中的 0.2.1(5) 本地候选及调度回归待云端状态已被后续成功构建覆盖。历史版本的修复范围见 [FIX-VALIDATION.md](FIX-VALIDATION.md)、[FIX-0.1.2-VALIDATION.md](FIX-0.1.2-VALIDATION.md) 和本地开发记录；不再作为当前安装状态。

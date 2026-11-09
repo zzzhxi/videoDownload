@@ -24,4 +24,4 @@ iOS 构建号 11 的 [Actions run 37761235493](https://github.com/gaopan513/vide
 
 实际下载验收按端分别记录：[扩展](extension/VALIDATION.md)、[Windows](windows/VALIDATION.md)、[iOS](ios/VALIDATION.md)。扩展 Instagram/Facebook 样本完整落盘并通过 FFprobe；Windows Instagram 样本通过完整下载及深度解码，Facebook 现场下载未验证；iOS 目标站点整片下载、锁屏恢复与签名更新仍待真机验收。历史构建成功不等于当前所有网站可用。
 
-项目历史见 [task_plan.md](task_plan.md)、[findings.md](findings.md) 与 [progress.md](progress.md)。各端第三方依赖及媒体许可按端内说明核对。
+项目历史由仓库根目录的 `task_plan.md`、`findings.md` 与 `progress.md` 维护，这三份记录仅在本地保存、不随仓库分发；各端第三方依赖及媒体许可按端内说明核对。

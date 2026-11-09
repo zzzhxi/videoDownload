@@ -69,4 +69,4 @@ Windows 可构建前端与运行 JS 回归；浏览器只显示界面预览，�
 
 工程路径：ios/Core 为独立 Swift 包；ios/Native 为解析、网络、持久化、后台队列及媒体桥接；ios/App 注册 Capacitor 插件和 AppIcon。图标由仓库根 scripts/generate-app-icons.ps1 -Target iOS 从扩展原图导出，AppIcon 使用不透明 RGB PNG。
 
-当前包含 0.2.2(7–9) 的分段下载、持久化/恢复优化、并发解析和捕获过滤；历史修复证据见 [FIX-VALIDATION.md](FIX-VALIDATION.md)、[FIX-0.1.2-VALIDATION.md](FIX-0.1.2-VALIDATION.md) 及根目录开发记录。完整设置、底部导航、完成记录批量清理和公共 Bridge 整合尚未进入阶段二，仍以三站真机门槛为前置条件。第三方许可见 [THIRD_PARTY.md](THIRD_PARTY.md)；其他端见 [Windows](../windows/README.md)、[浏览器扩展](../extension/README.md)。
+当前包含 0.2.2(7–9) 的分段下载、持久化/恢复优化、并发解析和捕获过滤；历史修复证据见 [FIX-VALIDATION.md](FIX-VALIDATION.md)、[FIX-0.1.2-VALIDATION.md](FIX-0.1.2-VALIDATION.md) 及本地开发记录。完整设置、底部导航、完成记录批量清理和公共 Bridge 整合尚未进入阶段二，仍以三站真机门槛为前置条件。第三方许可见 [THIRD_PARTY.md](THIRD_PARTY.md)；其他端见 [Windows](../windows/README.md)、[浏览器扩展](../extension/README.md)。

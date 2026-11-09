@@ -15,6 +15,7 @@ for folder in folders:
     files += [p for p in (root / folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
 files += [p for p in (root / 'artifacts').glob('*') if p.suffix in ('.json', '.txt', '.png')]
 shared = [root.parent / name for name in ('.gitignore', 'LICENSE', 'task_plan.md', 'findings.md', 'progress.md')]
+shared = [file for file in shared if file.exists()]
 icon_shared = [root.parent / name for name in ('scripts/generate-app-icons.ps1', 'extension/branding/spiderweb-master.png')]
 meta_shared = [root.parent / 'extension' / 'src' / name for name in ('core/meta-media.ts', 'core/utils.ts', 'shared/types.ts')]
 with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:

@@ -13,3 +13,8 @@ extension/*-validation.json
 extension/*-probe.json
 extension/*-preview.png
 extension/scripts/fixtures/meta-local-*.pem
+
+# 根目录会话规划笔记（本地开发记录，不入库）
+/task_plan.md
+/findings.md
+/progress.md

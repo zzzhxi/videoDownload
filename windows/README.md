@@ -93,7 +93,7 @@ FFmpeg/FFprobe 使用 `media-lock.json` 的版本与 SHA-256 固定，`prepare-m
 - `tests`：本地 HTTP 与 FFmpeg 生成的可控资源，不依赖第三方视频。
 - iPhone 原型在仓库同级目录 [`../ios/`](../ios/README.md)，与桌面端分别构建。
 
-开发计划在仓库根目录的 [`task_plan.md`](../task_plan.md)；调查结果在 [`findings.md`](../findings.md)；开发记录在 [`progress.md`](../progress.md)。依赖与媒体许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。当前交付为未签名个人使用构建。
+开发计划、调查结果与开发记录分别保存在仓库根目录的 `task_plan.md`、`findings.md` 与 `progress.md`，这三份记录仅在本地保存、不随仓库分发。依赖与媒体许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。当前交付为未签名个人使用构建。
 
 
 在下载队列或已完成页面点击“清除完成记录”，可移除全部完成记录。视频文件和未完成任务保留，清除结果在重启后仍生效。
