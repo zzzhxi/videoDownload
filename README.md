@@ -20,7 +20,7 @@
 
 Windows 开发构建依赖同级的 extension/src/core/meta-media.ts；请保留仓库目录结构。扩展的部分测试也复用 windows/node_modules 中的工具，详见各端 README。
 
-iOS 构建号 11 的 [Actions run 37761235493](https://github.com/gaopan513/videoDownload/actions/runs/37761235493) 已完成 22 项核心、16 项原生测试及 arm64 归档；本地保存了 [云构建证据](ios/release/spiderweb-20261008/cloud-build-evidence.txt)。工作流的 IPA artifact 保留 14 天，下载入口是否仍可用以 Actions 页面为准。
+iOS 构建号 11 的 [Actions run 37761235493](https://github.com/zzzhxi/videoDownload/actions/runs/37761235493) 已完成 22 项核心、16 项原生测试及 arm64 归档；本地保存了 [云构建证据](ios/release/spiderweb-20261008/cloud-build-evidence.txt)。工作流的 IPA artifact 保留 14 天，下载入口是否仍可用以 Actions 页面为准。
 
 实际下载验收按端分别记录：[扩展](extension/VALIDATION.md)、[Windows](windows/VALIDATION.md)、[iOS](ios/VALIDATION.md)。扩展 Instagram/Facebook 样本完整落盘并通过 FFprobe；Windows Instagram 样本通过完整下载及深度解码，Facebook 现场下载未验证；iOS 目标站点整片下载、锁屏恢复与签名更新仍待真机验收。历史构建成功不等于当前所有网站可用。
 

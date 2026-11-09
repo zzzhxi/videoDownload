@@ -6,7 +6,7 @@
 
 ## 2026-10-08 蜘蛛网图标 1.0.0 (11)
 
-- GitHub Actions run [37761235493](https://github.com/gaopan513/videoDownload/actions/runs/37761235493) 成功，应用提交 5d9c0376f0959bc2e6c5bf0e6ab2bb850624c107；22 项核心和16项原生测试通过，arm64 IPA归档成功。
+- GitHub Actions run [37761235493](https://github.com/zzzhxi/videoDownload/actions/runs/37761235493) 成功，应用提交 5d9c0376f0959bc2e6c5bf0e6ab2bb850624c107；22 项核心和16项原生测试通过，arm64 IPA归档成功。
 - AppIcon资源集包含iPhone所需9个槽位；图像尺寸及不透明RGB检查通过。编译后Info.plist声明AppIcon，包含Assets.car和AppIcon60x60@2x.png。Xcode其余图标变体位于编译资产目录，不能假定每种尺寸都以独立PNG存放。
 - 本地IPA ZIP CRC、云端SHA256、应用标识和构建号11通过。编译后的120×120 CgBI PNG经无损解码，与源图标逐像素一致；IPA中前端品牌PNG也与源文件一致。
 - 下载文件 `release/spiderweb-20261008/StreamHarbor-iOS-unsigned.ipa`，8524659字节，SHA256 `9958fedadb23ac9b74e6fd49682c6a7b0214a108280c7182a2990d30b8bf0ba8`。
@@ -61,6 +61,6 @@
 
 ## 历史构建记录
 
-历史初始原型 [run 34319138718](https://github.com/gaopan513/videoDownload/actions/runs/34319138718)，提交 4eb22587da78342119374d6ac218b3dfcaca8c98，7 项核心和 4 项模拟器原生测试、arm64 归档及 Bundle 校验通过。历史 IPA SHA-256：30f56bef61004086b3d244a8a088166c19700c674b93a6cbde38937cca0d8673。
+历史初始原型 [run 34319138718](https://github.com/zzzhxi/videoDownload/actions/runs/34319138718)，提交 4eb22587da78342119374d6ac218b3dfcaca8c98，7 项核心和 4 项模拟器原生测试、arm64 归档及 Bundle 校验通过。历史 IPA SHA-256：30f56bef61004086b3d244a8a088166c19700c674b93a6cbde38937cca0d8673。
 
 原文中的 0.2.1(5) 本地候选及调度回归待云端状态已被后续成功构建覆盖。历史版本的修复范围见 [FIX-VALIDATION.md](FIX-VALIDATION.md)、[FIX-0.1.2-VALIDATION.md](FIX-0.1.2-VALIDATION.md) 和本地开发记录；不再作为当前安装状态。

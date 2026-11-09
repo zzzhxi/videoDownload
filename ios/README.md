@@ -2,7 +2,7 @@
 
 当前源码与本地 IPA 为 1.0.0（构建号 11），最低 iOS 17，应用标识 local.streamharbor.ios。手机 AppIcon 与界面品牌使用蜘蛛网视频图标。本说明于 2026-10-09 按源码、工作流和保存的云构建证据核对。
 
-[Actions run 37761235493](https://github.com/gaopan513/videoDownload/actions/runs/37761235493) 已完成 22 项核心、16 项原生测试与 iPhone arm64 归档。当前 [未签名 IPA](release/spiderweb-20261008/StreamHarbor-iOS-unsigned.ipa) 位于 release/spiderweb-20261008/；[安装材料](release/spiderweb-20261008/INSTALL.md)、[云构建证据](release/spiderweb-20261008/cloud-build-evidence.txt) 和 [图标校验](release/spiderweb-20261008/icon-validation.json) 保存在同目录。构建号 10 的旧包不含新图标。
+[Actions run 37761235493](https://github.com/zzzhxi/videoDownload/actions/runs/37761235493) 已完成 22 项核心、16 项原生测试与 iPhone arm64 归档。当前 [未签名 IPA](release/spiderweb-20261008/StreamHarbor-iOS-unsigned.ipa) 位于 release/spiderweb-20261008/；[安装材料](release/spiderweb-20261008/INSTALL.md)、[云构建证据](release/spiderweb-20261008/cloud-build-evidence.txt) 和 [图标校验](release/spiderweb-20261008/icon-validation.json) 保存在同目录。构建号 10 的旧包不含新图标。
 
 IPA 为 8524659 字节，SHA-256：9958fedadb23ac9b74e6fd49682c6a7b0214a108280c7182a2990d30b8bf0ba8。构建与图标核验已通过；签名更新、iPhone 桌面图标、目标站点整片下载与后台流程仍待真机确认，见 [VALIDATION.md](VALIDATION.md)。
 
